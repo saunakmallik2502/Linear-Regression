@@ -33,21 +33,24 @@
    cnt =  0.2398	+ 0.2631*yr  - 0.1741*windspeed + 0.2926*spring + 0.1992*Mist + 0.2931*clear
 - Conclusion 6 : The R-square of the model based on the Training dataset was found to be 73.4% while the same on the Test dataset was 71.5%. Hence, I could conclude that the model is reliable.
 
-I also observed that Error terms are normally histogram of error terms they are normally distributed (bell curve).
+	- I also observed that Error terms are normally histogram of error terms they are normally distributed (bell curve).
 
-I also observed thatthe error terms are independent of each other.This is evident from the scatter plot that shows the error terms are distributed about the mean.
+	- I also observed thatthe error terms are independent of each other.This is evident from the scatter plot that shows the error terms are distributed about the mean.
 
-I also observed that there is no observed pattern in the plot.
+	- I also observed that there is no observed pattern in the plot.
 
-Error terms have constant variance (homoscedasticity):The variance should not increase (or decrease) as the error values change. Also, the variance should not follow any pattern as the error terms change. Univariate, Bi-Variate and Multi Variate analysis is done on the data set.
+	- Error terms have constant variance (homoscedasticity):The variance should not increase (or decrease) as the error values change. Also, the variance should not follow any pattern as the error terms change. Univariate, Bi-Variate and Multi Variate analysis is done on the data set.
 
-All these confirms the validity of the predicted model.
+	- All these confirms the validity of the predicted model.
 
-- Business Conclusions :  I could infer following about categorical variables –
+- Business Conclusions :  I could infer following about categorical variables â€“
 	- mist weather conditions (Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist) has higher probability of hiring a bike
 	- clear weather conditions (Clear, Few clouds, Partly cloudy, Partly cloudy) has higher probability of hiring a bike
 	- In spring, there is a higher probability of hiring a bike
 	- The bike rental trend is increasing year-on-year. Hence, the popularity of the bike rentals seems on an increasing trend.
+   	- High bike rentals are observed in summer and fall seasons.
+	- High bike rentals are observed in the months of July-Sep during the holiday seasons.
+
 
 
 ## Technologies Used
